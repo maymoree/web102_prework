@@ -6,7 +6,7 @@ body {
 }
 
 #tentacles {
-    width: 50px;
+    width: 75px;
 }
 
 .header {
@@ -19,8 +19,38 @@ body {
     margin-top: -10px;
 }
 
+.header2 {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+.header3 {
+    font-size: 20px;
+}
+
+.text-container {
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.top-button-container {
+    display: flex;
+    justify-content: center;
+}
+
 .stats-container {
     display: flex;
+    align-items: center;
+    padding: 1px;
+    margin: 1px;
+    transition: box-shadow 0.3s;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +102,13 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.button-design {
+    transition: box-shadow 0.3s;
+}
+
+.button-design:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
